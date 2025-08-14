@@ -279,10 +279,12 @@ export const ChatBotUI = () => {
           <StyledNavigationPill onClick={() => handleNavigation('resources')}>
             <StyledTitle>Resources</StyledTitle>
           </StyledNavigationPill>
+{/*
           <StyledNavigationPill onClick={() => window.open('https://linktr.ee/SafeOfMind', '_blank')}
               style={{ cursor: 'pointer' }}>
             <StyledTitle>Contact</StyledTitle>
           </StyledNavigationPill>
+*/}
         </StyledNavigationPillList>
       </StyledHeader>
 

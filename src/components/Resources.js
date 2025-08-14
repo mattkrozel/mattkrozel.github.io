@@ -158,10 +158,12 @@ export const Resources = () => {
           <StyledNavigationPill style={{ background: '#e0e0e0' }}>
             <StyledTitle>Resources</StyledTitle>
           </StyledNavigationPill>
+{/*
           <StyledNavigationPill onClick={() => window.open('https://linktr.ee/SafeOfMind', '_blank')}
                 style={{ cursor: 'pointer' }}>
             <StyledTitle>Contact</StyledTitle>
           </StyledNavigationPill>
+*/}
         </StyledNavigationPillList>
       </StyledHeader>
       <div style={{ height: '1800px' }}></div>
